@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- bootstrap icon cdn -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css"
+        integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="main-div">
+        <div id="leftnav">
+            <h2 id="heading"><span>Adopt A Pet.</span><img height="80px" width="auto" src="./logo/rb_3349.png"
+                    alt="logo"></h2>
+
+            <div id="breed-name">
+
+            </div>
+        </div>
+
+        <ul class="rightnav">
+            <!-- <h2 id="heading-2"> -->
+                <header>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search...">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="user-info" id="userInfoDropdown">
+                        <img src="./logo/realistic-j-letter-with-metallic-surface_23-2150458442.jpg" alt="User Avatar" class="avatar">
+                        <span>Jainam Pokal</span>
+                        <i class="fas fa-chevron-down"></i>
+                        <div class="dropdown-menu" id="profileDropdown">
+                            <a href="#profile"><i class="fas fa-user"></i> Profile</a>
+                            <a href="#settings"><i class="fas fa-cog"></i> Settings</a>
+                            <a href="#logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                </header>
+            <!-- </h2> -->
+
+            <div id="breed-image">
+                <!-- details in js -->
+                <video width="100%" height="100%" autoplay muted src="./video/135025-760679997_small.mp4"></video>
+            </div>
+        </ul>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
